@@ -4,5 +4,6 @@
 def key_for_min_value(name_hash)
   num = 0
   name_hash.each do |key, value| 
-    if num < 15 
+    if key > num  
+  end
 end
